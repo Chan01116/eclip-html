@@ -6,6 +6,10 @@
     <%@ include file = "/common/function.jsp" %>
      <jsp:useBean id="mv" class="Vo.MemberVo" scope="page"/>
      <jsp:setProperty name="mv" property="*"/>
+     
+     
+     
+    
    
     <!-- scope 범위는 4가지가 있다 page(페이지내이서만),request(전송하는 범위까지), session(서버에서 끝날때까지 로그아웃), application(프로그램이 살아있을때까지) -->
   
